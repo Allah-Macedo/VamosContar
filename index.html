@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Allah Macedo">
+    <title>vamos contar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="header__txt">Vamos Contar</p>
+    </header>
+    <main class="main">
+        <div class="box_inputs">
+            <div class="block_input">
+                <label for="inicio" class="label">Inicio :</label>
+                <input type="number" name="inicio" class="input" id="inicio">
+            </div><!-- block_input -->
+            <div class="block_input">
+                <label for="fim" class="label">Fim :</label>
+                <input type="number" name="fim" class="input" id="fim"> 
+            </div><!-- block_input -->
+            <div class="block_input">
+                <label for="passo" class="label">Passo :</label>
+                <input type="number" name="passo" class="input" id="passo">
+            </div><!-- block_input -->
+        </div><!-- box_inputs -->
+        <input type="button" value="Contar" class="btn_count" id="btn_count">
+        <p class="title_count" id="title_count">Preparando contagem...</p>
+        <p class="counting" id="counting">1 2 3 4 5 8 </p>
+    </main>
+    <footer class="footer">
+        <p class="footer__txt">&copy; code.knights</p>
+    </footer>
+    <script src="contando.js"></script>
+</body>
+</html>

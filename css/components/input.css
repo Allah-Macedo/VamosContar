@@ -1,0 +1,19 @@
+.box_inputs {width: 60%;}
+.block_input {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+}
+.label {
+    color: #44443c;
+    font-size: 14pt;
+}
+.input {
+    border: none;
+    outline: none;
+}
+.input:focus {
+    background-color: #3a3a32;
+    color: rgb(255, 255, 255);
+   
+}
