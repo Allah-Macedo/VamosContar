@@ -6,6 +6,6 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Rubik', sans-serif;
-    color: #ffffff;
-    background-color: #2D2424;
+    color: var(--body_color);
+    background-color: var(--body_bg-color);
 }

@@ -1,0 +1,12 @@
+.theme:root {
+    --body_color      : #ffffff;
+    --body_bg-color   : #2D2424;
+    --count_color     : #ffffff;
+    --count_bg-color  : #3a3a32;
+    --titleCount_color: #44443c;
+    --label_color     : #44443c;
+    --inputFocus_color: #ffffff;
+    --inputFocus_bg-color:#3a3a32;
+    --main_bg-color      :#b89f7f;
+    --main_shadow-color  :#ffffff;
+}

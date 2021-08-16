@@ -1,5 +1,5 @@
 .title_count {
-    color: #44443c;
+    color: var(--titleCount_color);
     font-size: 14pt;
     margin: 0;
 }
